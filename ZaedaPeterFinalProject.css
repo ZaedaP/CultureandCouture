@@ -1,0 +1,113 @@
+body {
+  background-color: #FFEDD4;
+}
+
+h1 {
+  color: #73e58c;
+  font-family: Papyrus;
+  font-size: 40px;
+  text-align: center;
+  }
+
+h3 {
+  color: #73e58c;
+  font-family: Papyrus;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.One {
+  font-family: Papyrus;
+  font-size: 20px
+  text-align: justify;
+}
+
+.Two {
+  color: #aae7ae;
+  font-family: Papyrus;
+  font-size: 30px;
+  text-align: justify;
+}
+
+#CompanyLogoID {
+  height: 50%;
+  width: 10%;
+}
+
+.Three {
+  font-family: Papyrus;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+}
+
+.Menu {
+  background-color: #74e58c;
+  margin:auto: 0px;
+  padding: 0px;
+}
+
+.Menu a {
+  display: block;
+  padding: 14px 16px;
+  color: #73e58c;
+  text-decoration: none;
+  float: right;
+}
+
+.Menu a:hover{
+  background-color: #FECEA1;
+}
+
+.Menu, .footerbar {
+  background-color: #74e58c;
+  margin:auto: 0px;
+  padding: 0px;
+}
+
+.Menu a, .footerbar a {
+  display: block;
+  padding: 14px 16px;
+  color: #73e58c;
+  text-decoration: none;
+  float: right;
+}
+
+.Menu a:hover, .footerbar a:hover{
+  background-color: #FECEA1;
+}
+
+
+#ClassPhotoID {
+  height: 20%;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+#HeaderPic {
+  height: 60%;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#CompanyLogoID {
+  height: 23%;
+  width: 10%;
+  display: block;
+}
